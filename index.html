@@ -17,8 +17,8 @@
 
     <!-- Scrivi e aggiungi task -->
     <div class="new-tasks">
-      <input type="text" placeholder="Scrivi nuova task...">
-      <button>
+      <input type="text" placeholder="Scrivi nuova task..." v-model="newTask" @keyup.enter="addTask">
+      <button @click="addTask">
         <i class="fa-solid fa-plus"></i>
       </button>
 

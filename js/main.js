@@ -21,6 +21,8 @@ createApp ({
   },
 
   methods: {
-      
+    addTask(){
+      this.tasks.push({text:this.newTask});
+    }
   }
 }).mount('#app')
