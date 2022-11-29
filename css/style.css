@@ -61,7 +61,7 @@ button i{
 
 /* Parte lista di task */
 li{
-  color: #c85096;
+  color: #6741d0;
   list-style: none;
   margin-bottom: 10px;
   background: #ffefd6; 
@@ -77,6 +77,11 @@ li i{
   right: 0;
 }
 
+input[type="checkbox"] {
+  accent-color: #d04141;    
+}
+
 .line{
   text-decoration: line-through;
+  color: #d04141;
 }
