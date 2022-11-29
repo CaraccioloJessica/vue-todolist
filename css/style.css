@@ -41,6 +41,10 @@ margin-bottom: 40px;
   width: 80%;
 }
 
+input:focus{
+  outline-color: #C850C0;
+}
+
 button{
   cursor: pointer;
   width: calc(20% - 10px);
@@ -66,5 +70,6 @@ li{
 }
 
 li i{
+  cursor: pointer;
   margin: 0 10px;
 }

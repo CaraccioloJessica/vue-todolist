@@ -28,7 +28,7 @@
     <div class="tasks-list">
       <ul>
         <li class="task" v-for="(task, i) in tasks">
-          <i class="fa-solid fa-circle-xmark"></i>
+          <i class="fa-solid fa-circle-xmark" @click="removeTask(i)"></i>
           {{task.text}}
         </li>
       </ul>

@@ -23,6 +23,11 @@ createApp ({
   methods: {
     addTask(){
       this.tasks.push({text:this.newTask});
+      this.newTask = '';
+    },
+    
+    removeTask(indice){
+      this.tasks.splice(indice,1);
     }
   }
 }).mount('#app')
