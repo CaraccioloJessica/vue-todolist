@@ -18,16 +18,18 @@
     <!-- Scrivi e aggiungi task -->
     <div class="new-tasks">
       <input type="text" placeholder="Scrivi nuova task...">
-      <button>Add</button>
+      <button>
+        <i class="fa-solid fa-plus"></i>
+      </button>
 
     </div>
 
     <!-- lista delle task aggiunte da user -->
     <div class="tasks-list">
       <ul>
-        <li class="task">
+        <li class="task" v-for="(task, i) in tasks">
           <i class="fa-solid fa-circle-xmark"></i>
-          prova
+          {{task.text}}
         </li>
       </ul>
     </div>

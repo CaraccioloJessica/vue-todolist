@@ -16,16 +16,54 @@ body{
   width: 400px;
   min-height: 500px;
   margin: 40px auto;
-  background-color: #f4f7fc;
+  padding: 20px;
+  background-color: #fcf4f9;
   border-radius: 10px;
-  padding: 20px 20px;
 }
 
 .title{
   font-size: 1.5rem;
   color: #C850C0;
+  margin: 10px 0 40px;
+  text-align: center;
 }
 
-ul{
+/* Parte aggiungi task */
+.new-tasks{
+margin-bottom: 40px;
+}
+
+.new-tasks input{
+  border: 1px solid #c7c7c7;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 80%;
+}
+
+button{
+  width: calc(20% - 10px);
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #7341d0;
+}
+
+button i{
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* Parte lista di task */
+li{
+  color: #c85096;
   list-style: none;
+  margin-bottom: 10px;
+  background: #ffeac9; 
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+li i{
+  margin: 0 10px;
 }
